@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>vsTranslator</class>
+ <widget class="QMainWindow" name="vsTranslator">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>428</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>428</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>vsTranslator</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="vst.qrc">
+    <normaloff>:/new/prefix1/edu_languages.png</normaloff>:/new/prefix1/edu_languages.png</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>32</width>
+    <height>32</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Перевести</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>390</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Перевод в буфер обмена</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>390</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Настройки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>390</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>О программе</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Англо-русский</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Русско-английский</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Немецко-русский</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Русско-немецкий</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Французско-русский</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Русско-французский</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Испано-русский</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Русско-испанский</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Итальяно-русский</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>355</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Автокопирование перевода в буфер</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>581</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="acceptRichText">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>350</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="maxVisibleItems">
+     <number>20</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="swap">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>145</x>
+      <y>350</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Сменить направление перевода</string>
+    </property>
+    <property name="text">
+     <string>⇰</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="vst.qrc"/>
+ </resources>
+ <connections/>
+</ui>

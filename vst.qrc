@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1" >
+        <file>edu_languages.png</file>
+        <file>kcmsystem.png</file>
+    </qresource>
+</RCC>
